@@ -13,9 +13,11 @@ const NavbarItem = ({title, classProps}) => {
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center p-4">
+    // <nav className="w-full flex md:justify-center justify-between items-center p-4">
+    <nav className="flex w-full md:px-20 justify-between p-4">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor-pointer" />
+        {/* <img src={logo} alt="logo" className="w-32 cursor-pointer" /> */}
+        <h2 className='text-gray-200 text-bold md:text-4xl text-2xl'>nCRYPTO</h2>
       </div>
       <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
