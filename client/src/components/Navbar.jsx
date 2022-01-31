@@ -20,7 +20,7 @@ const Navbar = () => {
         <h2 className='text-gray-200 text-bold md:text-4xl text-2xl'>nCRYPTO</h2>
       </div>
       <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
-        {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+        {["BitCoin", "Blockchain", "Blog", "Contact"].map((item, index) => (
           <NavbarItem key={item+index} title={item} />
         ))}
         <li className='bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]'>Login</li>
