@@ -1,8 +1,5 @@
-# blockchain-crypto-smart-contract-example
-
-
 # Ncrypto - Web 3.0 Blockchain Application with React.js
-![Ncrypto](https://ibb.co/7GdZW8w)
+![Ncrypto](https://raw.githubusercontent.com/1983shiv/blockchain-crypto-smart-contract-example/main/screenshot.png)
 
 ## Introduction
 This is a code repository for the learning video tutorial from javascript mastery.
